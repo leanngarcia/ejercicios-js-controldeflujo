@@ -6,7 +6,7 @@ let edadUsuario = parseInt(prompt("Ingrese su edad"));
 
 const edadAdulto = 18;
 
-if (edadUsuario > edadAdulto) {
+if (edadUsuario >= edadAdulto) {
   alert("Bienvenido " + nombreUsuario);
 } else if (edadUsuario < edadAdulto) {
   alert("No se permite el ingreso a menores de edad");
